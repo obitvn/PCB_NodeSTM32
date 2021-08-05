@@ -1,0 +1,13 @@
+Added Component: Designator=M1(CC1101 UART HC11)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3V3 Pin=M1-1
+Added Pin To Net: NetName=GND Pin=M1-2
+Added Pin To Net: NetName=GND Pin=M1-2
+Added Pin To Net: NetName=GND Pin=M1-2
+Added Pin To Net: NetName=RF_RX Pin=M1-3
+Added Pin To Net: NetName=RF_TX Pin=M1-4
+Added Pin To Net: NetName=NetM1_5 Pin=M1-5
+Added Pin To Net: NetName=Net*4_1 Pin=M1-6
+Added Pin To Net: NetName=Net*4_1 Pin=M1-6
+Added Member To Class: ClassName=NodeSTM32 Member=Component M1 CC1101
+Added Room: Name=NodeSTM32

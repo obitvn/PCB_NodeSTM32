@@ -1,0 +1,6 @@
+Added Member To Class: ClassName=NodeSTM32 Member=Component * Diode Bridge
+Added Member To Class: ClassName=NodeSTM32 Member=Component * Diode Bridge
+Added Member To Class: ClassName=NodeSTM32 Member=Component * AO3400
+Added Member To Class: ClassName=NodeSTM32 Member=Component D7 Diode
+Added Member To Class: ClassName=NodeSTM32 Member=Component R24 470R
+Added Room: Name=NodeSTM32

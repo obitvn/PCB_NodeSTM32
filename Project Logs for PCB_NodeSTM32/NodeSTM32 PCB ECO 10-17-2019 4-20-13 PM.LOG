@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=Net*_4 Pin=C17-3
+Removed Pin From Net: NetName=Net*_3 Pin=C17-4
+Removed Pin From Net: NetName=Net*_3 Pin=C17-13
+Removed Pin From Net: NetName=Net*_4 Pin=C17-14
+Removed Pin From Net: NetName=Net*_1 Pin=C20-2
+Removed Pin From Net: NetName=Net*_1 Pin=L5-1
+Added Component: Designator=*(Diode Bridge 1A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*(Diode Bridge 1A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*(Diode Bridge 1A)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Net*_1 Pin=*-1
+Added Pin To Net: NetName=GND IN Pin=*-2
+Added Pin To Net: NetName=GND IN Pin=*-2
+Added Pin To Net: NetName=GND IN Pin=*-2
+Added Pin To Net: NetName=Net*_3 Pin=*-3
+Added Pin To Net: NetName=Net*_4 Pin=*-4
+Added Pin To Net: NetName=Net*_4 Pin=C17-1
+Added Pin To Net: NetName=Net*_3 Pin=C17-2
+Added Pin To Net: NetName=Net*_3 Pin=C17-15
+Added Pin To Net: NetName=Net*_4 Pin=C17-16
+Added Pin To Net: NetName=Net*_1 Pin=C18-2
+Added Pin To Net: NetName=Net*_1 Pin=L3-1
+Added Member To Class: ClassName=NodeSTM32 Member=Component * Diode Bridge
+Added Member To Class: ClassName=NodeSTM32 Member=Component * AO3400
+Added Member To Class: ClassName=NodeSTM32 Member=Component * Diode Bridge
+Added Member To Class: ClassName=NodeSTM32 Member=Component D7 Diode
+Added Member To Class: ClassName=NodeSTM32 Member=Component R24 470R
+Added Room: Name=NodeSTM32

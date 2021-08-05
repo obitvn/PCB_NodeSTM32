@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetLED2_2 Pin=U1-10
+Change Component Description : Designator=C3 Old Description=T? Nhôm 47UF 50V 6.3x5.5MM New Description=T? Nhôm 47UF 50V 6.3x5.5MM
+Change Component Description : Designator=C21 Old Description=T? Nhôm 47UF 50V 6.3x5.5MM New Description=T? Nhôm 47UF 50V 6.3x5.5MM
+Added Pin To Net: NetName=NetLED2_2 Pin=U1-27
+Added Member To Class: ClassName=NodeSTM32 Member=Component D12 Diode
+Added Room: Name=NodeSTM32

@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=NetLED3_1 Pin=U1-25
+Removed Pin From Net: NetName=OBIT_PROTOCOL_DT Pin=U1-46
+Change Component Footprint: Designator=D6 Old Footprint=DIO-SMD-106 New Footprint=DIO-SMD-123
+Change Component Footprint: Designator=D7 Old Footprint=DIO-SMD-106 New Footprint=DIO-SMD-123
+Change Component Footprint: Designator=D8 Old Footprint=DIO-SMD-106 New Footprint=DIO-SMD-123
+Change Component Footprint: Designator=D10 Old Footprint=DIO-SMD-106 New Footprint=DIO-SMD-123
+Change Component Footprint: Designator=D12 Old Footprint=DIO-SMD-106 New Footprint=DIO-SMD-123
+Change Component Footprint: Designator=D5 Old Footprint=SOD123 New Footprint=DIO-SMD-123
+Added Component: Designator=*(SOT23-123)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D7(DIO-SMD-123)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R24(RES-SMD-0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SP?(SPK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Speaker Chip"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=*-3
+Added Pin To Net: NetName=3V3 Pin=D7-2
+Added Pin To Net: NetName=GND Pin=R24-2
+Added Pin To Net: NetName=3V3 Pin=SP?-1
+Added Pin To Net: NetName=OBIT_PROTOCOL_DT Pin=U1-25
+Added Pin To Net: NetName=NetLED3_1 Pin=U1-26
+Added Pin To Net: NetName=Net*_2 Pin=*-2
+Added Pin To Net: NetName=Net*_2 Pin=D7-1
+Added Pin To Net: NetName=Net*_2 Pin=SP?-2
+Added Net: Name=Net*_2
+Added Pin To Net: NetName=SPK Pin=*-1
+Added Pin To Net: NetName=SPK Pin=R24-1
+Added Pin To Net: NetName=SPK Pin=U1-38
+Added Net: Name=SPK
+Added Member To Class: ClassName=NodeSTM32 Member=Component * AO3400
+Added Member To Class: ClassName=NodeSTM32 Member=Component C30 104
+Added Member To Class: ClassName=NodeSTM32 Member=Component D6 Diode
+Added Member To Class: ClassName=NodeSTM32 Member=Component D7 Diode
+Added Member To Class: ClassName=NodeSTM32 Member=Component R21 12k
+Added Member To Class: ClassName=NodeSTM32 Member=Component R24 470R
+Added Member To Class: ClassName=NodeSTM32 Member=Component SP? Speaker
+Added Room: Name=NodeSTM32

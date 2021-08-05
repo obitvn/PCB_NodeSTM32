@@ -1,0 +1,83 @@
+Removed Pin From Net: NetName=3V3 Pin=C30-1
+Removed Pin From Net: NetName=3V3 Pin=C31-1
+Removed Pin From Net: NetName=3V3 Pin=C32-1
+Removed Pin From Net: NetName=3V3 Pin=C33-1
+Removed Pin From Net: NetName=3V3 Pin=D13-1
+Removed Pin From Net: NetName=3V3 Pin=U1-9
+Removed Pin From Net: NetName=3V3 Pin=U1-24
+Removed Pin From Net: NetName=3V3 Pin=U1-36
+Removed Pin From Net: NetName=3V3 Pin=U1-48
+Change Component Footprint: Designator=D5 Old Footprint=DIO-SMD-123 New Footprint=SOD123
+Change Component Designator: OldDesignator=C30 NewDesignator=C31
+Change Component Designator: OldDesignator=C31 NewDesignator=C32
+Change Component Designator: OldDesignator=C32 NewDesignator=C33
+Change Component Designator: OldDesignator=C33 NewDesignator=C34
+Change Component Designator: OldDesignator=D6 NewDesignator=D7
+Change Component Designator: OldDesignator=D7 NewDesignator=D8
+Change Component Designator: OldDesignator=D8 NewDesignator=D9
+Change Component Designator: OldDesignator=D9 NewDesignator=D10
+Change Component Designator: OldDesignator=D10 NewDesignator=D11
+Change Component Designator: OldDesignator=D11 NewDesignator=D12
+Change Component Designator: OldDesignator=D12 NewDesignator=D13
+Change Component Designator: OldDesignator=D13 NewDesignator=D14
+Change Component Designator: OldDesignator=R21 NewDesignator=R22
+Change Component Designator: OldDesignator=R22 NewDesignator=R23
+Change Component Designator: OldDesignator=R23 NewDesignator=R24
+Change Component Designator: OldDesignator=R24 NewDesignator=R25
+Change Component Designator: OldDesignator=R25 NewDesignator=R26
+Change Component Designator: OldDesignator=R26 NewDesignator=R27
+Change Component Description : Designator=C3 Old Description=T? Nhôm 47UF 50V 6.3x5.5MM New Description=T? Nhôm 47UF 50V 6.3x5.5MM
+Change Component Description : Designator=C21 Old Description=T? Nhôm 47UF 50V 6.3x5.5MM New Description=T? Nhôm 47UF 50V 6.3x5.5MM
+Added Component: Designator=C30(SM-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=D6(DIO-SMD-106)
+Add component. Clean all parameters for all variants
+Added Component: Designator=L7(FER 0805/2012)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1.5uH"; VariantName = "[No Variations]"
+Added Component: Designator=R21(RES-SMD-0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=USB1(USB-M1)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Pin To Net: NetName=5V Pin=D6-2
+Added Pin To Net: NetName=3V3 Pin=L7-2
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=GND Pin=USB1-5
+Added Pin To Net: NetName=GND Pin=USB1-5
+Added Pin To Net: NetName=GND Pin=USB1-5
+Change Net Name : Old Net Name=NetR22_1 New Net Name=NetR23_1
+Added Pin To Net: NetName=NetC30_1 Pin=C30-1
+Added Pin To Net: NetName=NetC30_1 Pin=C31-1
+Added Pin To Net: NetName=NetC30_1 Pin=C32-1
+Added Pin To Net: NetName=NetC30_1 Pin=C33-1
+Added Pin To Net: NetName=NetC30_1 Pin=C34-1
+Added Pin To Net: NetName=NetC30_1 Pin=D14-1
+Added Pin To Net: NetName=NetC30_1 Pin=L7-1
+Added Pin To Net: NetName=NetC30_1 Pin=U1-9
+Added Pin To Net: NetName=NetC30_1 Pin=U1-24
+Added Pin To Net: NetName=NetC30_1 Pin=U1-36
+Added Pin To Net: NetName=NetC30_1 Pin=U1-48
+Added Net: Name=NetC30_1
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_1 Pin=USB1-1
+Added Net: Name=NetD6_1
+Added Pin To Net: NetName=OBIT_PROTOCOL_DT Pin=R21-2
+Added Pin To Net: NetName=OBIT_PROTOCOL_DT Pin=U1-46
+Added Pin To Net: NetName=OBIT_PROTOCOL_DT Pin=USB1-4
+Added Net: Name=OBIT_PROTOCOL_DT
+Added Pin To Net: NetName=OBIT_PROTOCOL_RX Pin=U1-22
+Added Pin To Net: NetName=OBIT_PROTOCOL_RX Pin=U1-32
+Added Pin To Net: NetName=OBIT_PROTOCOL_RX Pin=USB1-2
+Added Net: Name=OBIT_PROTOCOL_RX
+Added Pin To Net: NetName=OBIT_PROTOCOL_TX Pin=U1-21
+Added Pin To Net: NetName=OBIT_PROTOCOL_TX Pin=U1-33
+Added Pin To Net: NetName=OBIT_PROTOCOL_TX Pin=USB1-3
+Added Net: Name=OBIT_PROTOCOL_TX
+Added Member To Class: ClassName=NodeSTM32 Member=Component C34 104
+Added Member To Class: ClassName=NodeSTM32 Member=Component D14 Diode
+Added Member To Class: ClassName=NodeSTM32 Member=Component L7 1.5uH
+Added Member To Class: ClassName=NodeSTM32 Member=Component R27 1M
+Added Member To Class: ClassName=NodeSTM32 Member=Component USB1 Port isn't USB
+Added Room: Name=NodeSTM32

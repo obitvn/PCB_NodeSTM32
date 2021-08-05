@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"stm32noderf\startup_stm32f103xb.o"
+"stm32noderf\main.o"
+"stm32noderf\stm32f1xx_it.o"
+"stm32noderf\stm32f1xx_hal_msp.o"
+"stm32noderf\stm32f1xx_hal_gpio_ex.o"
+"stm32noderf\stm32f1xx_hal_tim.o"
+"stm32noderf\stm32f1xx_hal_tim_ex.o"
+"stm32noderf\stm32f1xx_hal.o"
+"stm32noderf\stm32f1xx_hal_rcc.o"
+"stm32noderf\stm32f1xx_hal_rcc_ex.o"
+"stm32noderf\stm32f1xx_hal_gpio.o"
+"stm32noderf\stm32f1xx_hal_dma.o"
+"stm32noderf\stm32f1xx_hal_cortex.o"
+"stm32noderf\stm32f1xx_hal_pwr.o"
+"stm32noderf\stm32f1xx_hal_flash.o"
+"stm32noderf\stm32f1xx_hal_flash_ex.o"
+"stm32noderf\stm32f1xx_hal_exti.o"
+"stm32noderf\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "STM32NodeRF\STM32NodeRF.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32NodeRF.map" -o STM32NodeRF\STM32NodeRF.axf

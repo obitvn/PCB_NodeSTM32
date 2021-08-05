@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=3V3 Pin=SP1-1
+Removed Pin From Net: NetName=Net*3_2 Pin=SP1-2
+Removed Member From Class: ClassName=NodeSTM32 Member=SP1
+Change Component Designator: OldDesignator=D12 NewDesignator=D13
+Added Component: Designator=BT1(PIN CR1220-SMD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "PIN 3V"; VariantName = "[No Variations]"
+Added Component: Designator=D12(SOD123)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LS1(MLT8530)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheet.lcsc.com/szlcsc/1811182003_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Jiangsu Huaneng Elec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MLT-8530"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BT1-2
+Added Pin To Net: NetName=NetC28_2 Pin=D12-2
+Added Pin To Net: NetName=3V3 Pin=LS1-2
+Added Pin To Net: NetName=Net*3_2 Pin=LS1-3
+Added Pin To Net: NetName=NetBT1_1 Pin=BT1-1
+Added Pin To Net: NetName=NetBT1_1 Pin=D12-1
+Added Net: Name=NetBT1_1
+Added Member To Class: ClassName=NodeSTM32 Member=Component BT1 PIN 3V
+Added Member To Class: ClassName=NodeSTM32 Member=Component D13 Diode
+Added Member To Class: ClassName=NodeSTM32 Member=Component LS1 BUZZER MLT-8530
+Added Room: Name=NodeSTM32

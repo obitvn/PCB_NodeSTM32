@@ -1,0 +1,55 @@
+Change Component Designator: OldDesignator=*3 NewDesignator=*4
+Change Component Designator: OldDesignator=* NewDesignator=*3
+Change Component Designator: OldDesignator=* NewDesignator=*5
+Change Component Designator: OldDesignator=* NewDesignator=*6
+Change Component Designator: OldDesignator=* NewDesignator=*7
+Change Component Designator: OldDesignator=D6 NewDesignator=D7
+Change Component Designator: OldDesignator=D7 NewDesignator=D6
+Change Component Designator: OldDesignator=D7 NewDesignator=D8
+Change Component Designator: OldDesignator=D8 NewDesignator=D9
+Change Component Designator: OldDesignator=D12 NewDesignator=D11
+Change Component Designator: OldDesignator=D14 NewDesignator=D12
+Change Component Designator: OldDesignator=R22 NewDesignator=R23
+Change Component Designator: OldDesignator=R23 NewDesignator=R24
+Change Component Designator: OldDesignator=R24 NewDesignator=R22
+Change Component Designator: OldDesignator=R24 NewDesignator=R25
+Change Component Designator: OldDesignator=R25 NewDesignator=R26
+Change Component Designator: OldDesignator=R26 NewDesignator=R27
+Change Component Designator: OldDesignator=R27 NewDesignator=R28
+Change Component Designator: OldDesignator=SP? NewDesignator=SP1
+Change Net Name : Old Net Name=Net*3_1 New Net Name=Net*4_1
+Change Net Name : Old Net Name=Net*_1 New Net Name=Net*5_1
+Change Net Name : Old Net Name=Net*_2 New Net Name=Net*3_2
+Change Net Name : Old Net Name=Net*_3 New Net Name=Net*5_3
+Change Net Name : Old Net Name=Net*_4 New Net Name=Net*5_4
+Change Net Name : Old Net Name=NetD6_1 New Net Name=NetD7_1
+Change Net Name : Old Net Name=NetR23_1 New Net Name=NetR24_1
+Added Pin To Net: NetName=Net*6_1 Pin=*6-1
+Added Pin To Net: NetName=Net*6_1 Pin=C19-2
+Added Pin To Net: NetName=Net*6_1 Pin=L4-1
+Added Net: Name=Net*6_1
+Added Pin To Net: NetName=Net*6_3 Pin=*6-3
+Added Pin To Net: NetName=Net*6_3 Pin=C17-4
+Added Pin To Net: NetName=Net*6_3 Pin=C17-13
+Added Net: Name=Net*6_3
+Added Pin To Net: NetName=Net*6_4 Pin=*6-4
+Added Pin To Net: NetName=Net*6_4 Pin=C17-3
+Added Pin To Net: NetName=Net*6_4 Pin=C17-14
+Added Net: Name=Net*6_4
+Added Pin To Net: NetName=Net*7_1 Pin=*7-1
+Added Pin To Net: NetName=Net*7_1 Pin=C20-2
+Added Pin To Net: NetName=Net*7_1 Pin=L5-1
+Added Net: Name=Net*7_1
+Added Pin To Net: NetName=Net*7_3 Pin=*7-3
+Added Pin To Net: NetName=Net*7_3 Pin=C17-6
+Added Pin To Net: NetName=Net*7_3 Pin=C17-11
+Added Net: Name=Net*7_3
+Added Pin To Net: NetName=Net*7_4 Pin=*7-4
+Added Pin To Net: NetName=Net*7_4 Pin=C17-5
+Added Pin To Net: NetName=Net*7_4 Pin=C17-12
+Added Net: Name=Net*7_4
+Added Member To Class: ClassName=NodeSTM32 Member=Component *5 Diode Bridge
+Added Member To Class: ClassName=NodeSTM32 Member=Component *6 Diode Bridge
+Added Member To Class: ClassName=NodeSTM32 Member=Component *7 Diode Bridge
+Added Member To Class: ClassName=NodeSTM32 Member=Component D9 Diode
+Added Member To Class: ClassName=NodeSTM32 Member=Component R28 1M
